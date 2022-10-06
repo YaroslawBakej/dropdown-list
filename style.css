@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font: 400 16px 'Montserrat';
+}
+
+.city {
+    width: 280px;
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.btn {
+    width: 248px;
+    padding: 20px 16px 20px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.city p {
+    padding: 12px 0 12px 16px;
+}
+
+.city p:hover {
+    background: #e7e7e7;
+}
+
+.wrapper {
+    margin: 30px auto 0 auto;
+    max-width: max-content;
+}
+
+.img {
+    background-size: contain;
+    width: 10px;
+    height: 5px;
+    background-image: url(./assets/Chevron\ \(1\).svg);
+    background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+}
