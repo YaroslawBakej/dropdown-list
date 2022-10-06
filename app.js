@@ -12,3 +12,9 @@ btn.addEventListener("click", () => {
         background-image: url(./assets/Chevron.svg)`
     }
 })
+city.addEventListener("click", event => {
+    document.querySelector(".btn p").textContent = event.target.textContent
+    city.hidden = true;
+    document.querySelector(".img").style = `
+        background-image: url(./assets/Chevron.svg)`
+})
